@@ -33,7 +33,7 @@ function index() {
             <span className="contact_advertisement_wrapper">
               <GoLocation />
             </span>
-            <span>Labim , Lalitpur</span>
+            <span>Labim Marga , Lalitpur</span>
           </a>
         </div>
         <div className="advertisement_second_wrapper_content">
