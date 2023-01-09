@@ -19,7 +19,7 @@ function index() {
             <span className="contact_advertisement_wrapper">
               <BsWhatsapp />
             </span>
-            <span>+977 9</span>
+            <span>+977 9841171289</span>
           </a>
           <a href="tel:9841171289">
             <span className="contact_advertisement_wrapper">
