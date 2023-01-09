@@ -1,0 +1,171 @@
+.Faqs {
+  margin-left: 0;
+  padding: 60px;
+  box-sizing: border-box;
+  width: 100%;
+  color: black;
+  margin-top: 4rem;
+}
+.Faqs__header {
+  text-align: center;
+}
+.Faqs__header h1 {
+  color: #dc143c;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+}
+.Faqs__header p {
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.link__faqs {
+  color: #dc143c;
+}
+.faqs .faq {
+  width: 62%;
+  margin: 29px;
+  margin-left: 299px;
+  padding-left: 100px;
+  padding: 9px;
+  color: black;
+  background-color: #fff;
+  border-radius: 1px;
+  box-shadow: 0px 0px 10px rgb(255 255 255 / 20%);
+  border-top: 2px solid #dee2e6;
+}
+
+.faqs .faq .faq__question {
+  /* text-align: center; */
+  position: relative;
+  font-size: 2.4rem;
+  font-weight: bold;
+  /* color: #ffbb23; */
+  padding-right: 80px;
+  transition: all 0.4s ease;
+}
+.faqs .faq .faq__question::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+
+  background-image: url("https://p.kindpng.com/picc/s/20-207806_plus-addition-sign-circle-1-with-circle-around.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all 0.4s ease;
+}
+.faqs .faq .faq__answer {
+  opacity: 0;
+  max-height: 0;
+  overflow-y: hidden;
+  transition: all 0.4s ease;
+  font-size: 1.5rem;
+  /* color: #ffbb23; */
+}
+.faqs .faq.open .faq__question {
+  margin-bottom: 15px;
+}
+.faqs .faq.open .faq__question::after {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.faqs .faq.open .faq__answer {
+  max-height: 1000px;
+  opacity: 1;
+}
+.faqs_contact {
+  text-align: center;
+  margin-top: 100px;
+}
+.faqs_contact > p {
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 0px;
+}
+.faqs_contact > p > a {
+  font-size: 29px;
+  color: #dd0c39;
+}
+.faqs_span {
+  color: #dd0c39;
+}
+
+@media screen and (max-width: 780px) {
+  .Faqs {
+    margin-left: 0;
+    padding: 35px 5px 35px 5px;
+    box-sizing: border-box;
+    width: 100%;
+    color: black;
+  }
+  .Faqs__header h1 {
+    color: #dc143c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 34px;
+  }
+  .Faqs__header p {
+    font-size: 20px;
+    line-height: 27px;
+    text-align: JUSTIFY;
+    padding: 8px;
+  }
+  .Faqs__header p br {
+    display: none;
+  }
+  .faqs .faq {
+    width: auto;
+    margin: 16px;
+    padding: 8px;
+    color: black;
+    background-color: #fff;
+    border-radius: 1px;
+    box-shadow: 0px 0px 10px rgb(255 255 255 / 20%);
+  }
+  .faqs .faq .faq__question {
+    position: relative;
+    font-size: 17px;
+    font-weight: bold;
+    padding-right: 27px;
+    transition: all 0.4s ease;
+  }
+  .faqs .faq .faq__answer {
+    opacity: 0;
+    max-height: 0;
+    overflow-y: hidden;
+    transition: all 0.4s ease;
+    font-size: 15px;
+  }
+  .faqs .faq .faq__question::after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 22px;
+    height: 22px;
+    background-image: url(https://p.kindpng.com/picc/s/20-207806_plus-addition-sign-circle-1-with-circle-around.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.4s ease;
+  }
+  .faqs_contact {
+    text-align: center;
+    margin-top: 48px;
+  }
+  .faqs_contact > p {
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0px;
+  }
+  .faqs_contact > p > a {
+    font-size: 24px;
+    color: #dd0c39;
+  }
+}

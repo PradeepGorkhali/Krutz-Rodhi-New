@@ -1,0 +1,8 @@
+.news_container {
+  text-align: center;
+}
+.news_container h1 {
+  color: var(--color-blue);
+  font-size: 2.5rem;
+  padding-top: 8rem;
+}

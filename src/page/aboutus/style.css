@@ -1,0 +1,75 @@
+.aboutus_container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.aboutpage_img img {
+  width: 100%;
+  display: flex;
+  object-fit: cover;
+}
+
+.aboutpage p {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 2rem 20rem 2rem 20rem;
+  line-height: 3rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .aboutpage p {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 2rem 9rem 2rem 9rem;
+    line-height: 3rem;
+  }
+  .aboutpage p br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .aboutpage p {
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 2rem 5rem 2rem 5rem;
+    line-height: 3rem;
+  }
+  .aboutpage p br {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutpage p {
+    font-size: 1.4rem;
+    margin: 0;
+    padding: 2rem 4rem 2rem 4rem;
+    line-height: 2.3rem;
+  }
+  .aboutpage p br {
+    display: none;
+  }
+  .aboutpage_img img {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+  }
+}
+@media only screen and (max-width: 560px) {
+  .aboutpage p {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 2rem 1rem 2rem 1rem;
+    line-height: 2rem;
+  }
+  .aboutpage p br {
+    display: none;
+  }
+  .aboutpage_img img {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+  }
+}

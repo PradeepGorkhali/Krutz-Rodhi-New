@@ -1,0 +1,166 @@
+.home_contact {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-gap: 3rem;
+  margin-top: 4rem;
+  padding: 0 4rem;
+}
+.contact_speak {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.contact_speak h1 {
+  color: var(--main-color);
+  font-size: 3rem;
+}
+.contact_fillform {
+  width: 88%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: var(--sub-color);
+  padding: 4rem 2rem 3rem 2rem;
+  border-radius: 2rem;
+}
+
+.contact_fillform div {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.contact_fillform div span {
+  font-size: 1.3rem;
+}
+.talkform_input {
+  width: 30rem;
+  border-radius: 1rem;
+  height: 2.5rem;
+}
+.contact_fillform div:last-child {
+  justify-content: center;
+}
+.talkform_submit {
+  background-color: var(--main-color);
+  width: 9rem;
+  border: 1px solid var(--main-color);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 1.8rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.talkform_submit:hover {
+  background-color: var(--color-blue);
+  border: 1px solid var(--color-blue);
+  color: #fff;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 1200px) {
+  .home_contact {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-gap: 2rem;
+    margin-top: 4rem;
+    padding: 0 2rem;
+  }
+  .contact_speak h1 {
+    text-align: center;
+    padding: 1rem;
+    color: var(--main-color);
+    font-size: 2.5rem;
+  }
+  .contact_fillform {
+    width: 88%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--sub-color);
+    padding: 4rem 2rem 3rem 2rem;
+    border-radius: 2rem;
+  }
+  .contact_fillform div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+  }
+  .contact_fillform div span {
+    font-size: 1.2rem;
+  }
+  .talkform_input {
+    width: 20rem;
+    border-radius: 1rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .contact_speak h1 {
+    text-align: center;
+    padding: 1rem;
+    color: var(--main-color);
+    font-size: 2.5rem;
+  }
+  .talkform_input {
+    width: 18rem;
+    border-radius: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contact_speak h1 {
+    text-align: center;
+    padding: 10rem 0;
+    color: var(--main-color);
+    font-size: 2rem;
+  }
+  .contact_fillform div span {
+    font-size: 1rem;
+  }
+  .talkform_input {
+    width: 15rem;
+    border-radius: 1rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .home_contact {
+    grid-template-columns: 100%;
+    margin-top: 2rem;
+    padding: 0 1rem;
+    grid-gap: 0;
+  }
+  .contact_speak h1 {
+    text-align: center;
+    padding: 1rem 0;
+    color: var(--main-color);
+    font-size: 2rem;
+  }
+  .contact_fillform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: var(--sub-color);
+    padding: 2rem 1rem 2rem 1rem;
+    border-radius: 2rem;
+    width: 90%;
+  }
+  .contact_fillform div {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+  }
+  .contact_fillform div span {
+    font-size: 1.2rem;
+    width: 33%;
+  }
+  .talkform_input {
+    width: 13rem;
+    border-radius: 1rem;
+  }
+}

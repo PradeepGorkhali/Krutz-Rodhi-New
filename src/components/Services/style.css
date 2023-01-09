@@ -1,0 +1,136 @@
+.container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 2rem;
+}
+section {
+  overflow: hidden;
+}
+
+.section-bg {
+  background: var(--color-white);
+}
+
+.homeservice_section_header h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--main-color);
+  margin: 0;
+  padding: 3rem 0 1rem 0;
+}
+
+.dashboard_cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
+  margin-top: 2rem;
+}
+
+.dashboard_cards_single {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.dashboard_cards_single div:first-child span img {
+  width: 5rem;
+  height: 5rem;
+}
+.service_bottom {
+  padding: 2rem 0 1rem 0;
+}
+.readmore {
+  background-color: var(--sub-color);
+  width: 14rem;
+  border: 1px solid var(--sub-color);
+  color: #fff;
+  padding: 0.7rem 1rem;
+  border-radius: 1.8rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5rem;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.readmore:hover {
+  background-color: var(--main-color);
+  border: 1px solid var(--main-color);
+  color: #fff;
+  transition: 0.3s;
+}
+@media only screen and (max-width: 1200px) {
+  .dashboard_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .dashboard_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .dashboard_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .homeservice_section_header h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin: 0;
+    padding: 2rem 0 1rem 0;
+  }
+  .container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .dashboard_cards {
+    grid-template-columns: 100%;
+  }
+  .homeservice_section_header h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin: 0;
+    padding: 2rem 0 1rem 0;
+  }
+  .readmore {
+    background-color: var(--sub-color);
+    width: 9rem;
+    border: 1px solid var(--sub-color);
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 1.8rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 1px 2px;
+  }
+}

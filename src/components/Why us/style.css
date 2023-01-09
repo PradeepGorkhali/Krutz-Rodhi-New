@@ -1,0 +1,129 @@
+.whyus_container {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-bottom: 5rem;
+}
+section {
+  overflow: hidden;
+}
+
+.whyus_section_bg {
+  background: white;
+}
+
+.whyus_section_header h3 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: var(--main-color);
+  margin: 0;
+  padding: 3rem 0 1rem 0;
+}
+
+.whyus_dashboard_cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 2rem;
+  margin-top: 2rem;
+}
+
+.whyus_dashboard_cards_single {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.whyus_dashboard_cards_single:hover .whyus_cards_header h1 {
+  color: var(--main-color);
+}
+.whyus_dashboard_cards_single div:first-child span img {
+  width: 5rem;
+  height: 5rem;
+}
+.whyus_dashboard_cards_single .whyus_cards_header h1 {
+  color: var(--color-blue);
+}
+/* .whyus_dashboard_cards_single .whyus_cards_header h1:hover {
+  color: var(--main-color);
+} */
+
+@media only screen and (max-width: 1200px) {
+  .whyus_dashboard_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3rem;
+    margin-top: 2rem;
+  }
+}
+@media only screen and (max-width: 960px) {
+  .whyus_dashboard_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .whyus_dashboard_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  .whyus_section_header h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin: 0;
+    padding: 2rem 0 1rem 0;
+  }
+  .whyus_container {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .whyus_dashboard_cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .whyus_dashboard_cards_single {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 10%);
+    padding: 1rem;
+    border-radius: 1rem;
+  }
+  .whyus_section_header h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--main-color);
+    margin: 0;
+    padding: 2rem 0 0rem 0;
+  }
+  .whyus_dashboard_cards_single div:first-child span img {
+    width: 4rem;
+    height: 4rem;
+    padding-top: 1rem;
+  }
+  .whyus_dashboard_cards_single .whyus_cards_header h1 {
+    color: var(--color-blue);
+    font-size: 1.3rem;
+  }
+}
