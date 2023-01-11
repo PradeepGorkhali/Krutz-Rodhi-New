@@ -12,32 +12,30 @@ function index() {
   return (
     <div className="footer_container">
       <div className="footer_heading">
-        <h1>SHREESHA EDUCATION CONSULTANCY</h1>
+        <h1>KRUZE EDUCATION CONSULTANCY</h1>
         <span>
-          Shreesha Education Consultancy is a licensed educational consultant
-          registered with the Nepal Ministry of Company Registrar, specializing
-          in Russian education and immigration services. Our specialized team
-          has been advising students on their higher education in Russia for
-          over a decade. We are in Kathmandu's Balaju Macchapokari.
+        Welcome to Kruze Educational Consultancy! We are an expert team of educational
+         advisors dedicated to helping students in Nepal achieve their academic and professional
+          goals through studying abroad in Russia, the United Kingdom, Australia, and Canada.
         </span>
       </div>
       <div className="footer_social">
         <span>
-          <a href="https://www.facebook.com/Shreeshaedu">
+          <a href="http://www.facebook.com/edukruze">
             <FaFacebook />
           </a>
         </span>
         <span>
-          <a href="https://www.instagram.com/shreeshaedu/">
+          <a href="https://www.instagram.com/kruze_edu/">
             <FaInstagram />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/company/shreesha-education-consultancy-study-in-russia/">
+          <a href="http://www.linkedin.com/company/kruze-edu/">
             <FaLinkedin />
           </a>
         </span>
-        <span>
+        {/* <span>
           <a href="info@shreeshaedu.com">
             <MdOutlineEmail />
           </a>
@@ -46,7 +44,7 @@ function index() {
           <a href="https://goo.gl/maps/6FPa6j4avNAbQeN16">
             <FaMapMarkerAlt />
           </a>
-        </span>
+        </span> */}
       </div>
       <div className="footer_home_links">
         <div>

@@ -12,7 +12,7 @@ function index() {
           <div className="whyus_dashboard_cards_single">
             <div>
               <span>
-                <img src="./whyus/passport.png" alt="service_img" />
+                <img src="./whyus/experience.png" alt="service_img" />
               </span>
             </div>
             <div className="whyus_cards_header">

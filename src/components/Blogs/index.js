@@ -16,7 +16,7 @@ function index() {
               <img src="./blog/blogpost1.png" alt="electronics" />
             </a>
             <span className="home_blog_date">9 Jan 2023</span>
-            <a className="home_blog_links" href="/firstblog">
+            <a className="home_blog_links" href="">
               <h2 className="item">
               5 reasons to study abroad in Russia
               </h2>
@@ -25,17 +25,17 @@ function index() {
             Russia is a fascinating country with a rich and complex history that has shaped its culture and society
             </span>
             <span className="home_blog_link">
-              <a className="home_blog_links" href="/firstblog">
+              <a className="home_blog_links" href="">
                 Read more...
               </a>
             </span>
           </div>
           <div className="homeproduct_mediaelement">
-            <a className="homeproduct_mediaelement_link" href="/secondblog">
+            <a className="homeproduct_mediaelement_link" href="">
               <img src="./blog/blogpost2.png" alt="kitchen" />
             </a>
             <span className="home_blog_date">9 Jan 2023</span>
-            <a className="home_blog_links" href="/firstblog">
+            <a className="home_blog_links" href="">
               <h2 className="item">10 tips for choosing the right study abroad program</h2>
             </a>
             <span className="home_blog_paragraph">
@@ -43,7 +43,7 @@ function index() {
 
             </span>
             <span className="home_blog_link">
-              <a className="home_blog_links" href="/secondblog">
+              <a className="home_blog_links" href="">
                 Read more...
               </a>
             </span>
