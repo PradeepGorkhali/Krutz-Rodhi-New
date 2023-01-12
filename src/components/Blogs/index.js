@@ -35,7 +35,7 @@ function index() {
               <img src="./blog/blogbanner2.png" alt="kitchen" />
             </a>
             <span className="home_blog_date">9 Jan 2023</span>
-            <a className="home_blog_links" href="">
+            <a className="home_blog_links" href="/secondblog">
               <h2 className="item">10 tips for choosing the right study abroad program</h2>
             </a>
             <span className="home_blog_paragraph">

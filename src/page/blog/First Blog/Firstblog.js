@@ -99,6 +99,9 @@ function Firstblog() {
              professional opportunities available to students. Don't miss out on the opportunity to 
              study abroad in Russia - start exploring your options today!
           </p>
+          <p>Overall, studying abroad in Russia is a rewarding and enriching experience that offers 
+            students the chance to learn about a unique and fascinating culture, while also gaining
+             valuable skills and knowledge that can benefit them personally and professionally.</p>
         </div>
       </div>
       <hr></hr>
