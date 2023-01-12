@@ -22,7 +22,7 @@ function index() {
           <div className="whyus_dashboard_cards_single">
             <div>
               <span>
-                <img src="./whyus/no-fee.png" alt="service_img" />
+                <img src="./whyus/expertise.png" alt="service_img" />
               </span>
             </div>
             <div className="whyus_cards_header">
@@ -32,7 +32,7 @@ function index() {
           <div className="whyus_dashboard_cards_single">
             <div>
               <span>
-                <img src="./whyus/school.png" alt="service_img" />
+                <img src="./whyus/personalize.png" alt="service_img" />
               </span>
             </div>
             <div className="whyus_cards_header">
@@ -42,7 +42,7 @@ function index() {
           <div className="whyus_dashboard_cards_single">
             <div>
               <span>
-                <img src="./whyus/communication.png" alt="service_img" />
+                <img src="./whyus/proven.png" alt="service_img" />
               </span>
             </div>
             <div className="whyus_cards_header">
@@ -52,7 +52,7 @@ function index() {
           <div className="whyus_dashboard_cards_single">
             <div>
               <span>
-                <img src="./whyus/rating-stars.png" alt="service_img" />
+                <img src="./whyus/convinence.png" alt="service_img" />
               </span>
             </div>
             <div className="whyus_cards_header">
@@ -62,7 +62,7 @@ function index() {
           <div className="whyus_dashboard_cards_single">
             <div>
               <span>
-                <img src="./whyus/communication.png" alt="service_img" />
+                <img src="./whyus/Comprehensive.png" alt="service_img" />
               </span>
             </div>
             <div className="whyus_cards_header">
