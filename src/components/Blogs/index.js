@@ -13,10 +13,10 @@ function index() {
         <div className="homeproduct_scroller">
           <div className="homeproduct_mediaelement">
             <a className="homeproduct_mediaelement_link" href="/firstblog">
-              <img src="./banner/banner1.png" alt="electronics" />
+              <img src="./blog/blogbanner1.png" alt="electronics" />
             </a>
             <span className="home_blog_date">9 Jan 2023</span>
-            <a className="home_blog_links" href="">
+            <a className="home_blog_links" href="/firstblog">
               <h2 className="item">
               5 reasons to study abroad in Russia
               </h2>
@@ -32,7 +32,7 @@ function index() {
           </div>
           <div className="homeproduct_mediaelement">
             <a className="homeproduct_mediaelement_link" href="">
-              <img src="./banner/banner2.png" alt="kitchen" />
+              <img src="./blog/blogbanner2.png" alt="kitchen" />
             </a>
             <span className="home_blog_date">9 Jan 2023</span>
             <a className="home_blog_links" href="">

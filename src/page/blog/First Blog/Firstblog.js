@@ -5,195 +5,100 @@ function Firstblog() {
   return (
     <div className="firstblog_container">
       <div className="firstblog_img">
-        <img src="./blog/blogpost1.png" alt="logo" />
+        <img src="./blog/blogbanner1.png" alt="logo" />
       </div>
-      <div className="firstblog_date">AUGUST 28 2022</div>
+      <div className="firstblog_date">January 12, 2023</div>
       <div className="firstblog_division">
         <div className="firstblog_sidebar">
           <ul>
             <li>
-              <a href="#rodhigroup">
-                Let’s talk about the Russian Student Visa.
+              <a href="#tuition">
+              Affordable tuition
               </a>
             </li>
             <li>
-              <a href="#cityimport">
-                How to apply for a Russian Student Visa from Nepal?
+              <a href="#education">
+              High-quality education
               </a>
             </li>
             <li>
-              <a href="#virginpavific">
-                What is not required for Visa for Russia?
+              <a href="#diverse">
+              A diverse range of programs
               </a>
             </li>
             <li>
-              <a href="#frinternational">Before travel</a>
+              <a href="#cultural">
+              Cultural immersion
+              </a>
             </li>
             <li>
-              <a href="#kies">At the Border</a>
-            </li>
-            <li>
-              <a href="#genie">When you enter Russia</a>
+              <a href="#professional">
+              Professional opportunities
+              </a>
             </li>
           </ul>
         </div>
         <div className="firstblog_content">
-          <h1>How to process a Russian Visa to Study and Work from Nepal?</h1>
+          <h1>5 reasons to study abroad in Russia</h1>
 
           <p className="firstblog_quote">
-            Being the largest country by area, Russia is quite developed as
-            well. It has also made Education available to Nepali students
-            through a Russian student visa from Nepal. The process is easy
-            compared to other Europe and American countries; we are here to help
-            and guide you on every step of the application process.
+          Russia is a fascinating country with a rich and complex history that has shaped its culture
+           and society. From the iconic landmarks of Moscow and St. Petersburg to the diverse landscapes
+            and cultures of the regions, Russia offers a unique blend of historical and cultural 
+            experiences. Studying abroad in Russia allows students to fully immerse themselves 
+            in this diverse and dynamic culture, exploring its rich heritage and contemporary life.
+             Here are a few reasons why you might want to consider studying abroad in Russia:
+
           </p>
 
-          <div id="rodhigroup" className="firstblog_heading_contains">
-            <h3>Let’s talk about the Russian Student Visa.</h3>
+          <div id="tuition" className="firstblog_heading_contains">
+            <h3>Affordable tuition</h3>
             <p>
-              Many people wish to pursue an education in Russia. To be able to
-              do so, certain formalities must be completed, one of which is
-              obtaining an education permit in Russia. The holder of this permit
-              is permitted to pursue the necessary Education and tour the
-              country. The Russian government issues this visa as a type of
-              temporary residence permit.
+            Higher education in Russia is generally much more affordable than in many other countries, 
+            especially for international students. This can make it a cost-effective option for earning
+             a degree.
             </p>
           </div>
-          <div id="cityimport" className="firstblog_heading_contains">
-            <h3>How to apply for a Russian Student Visa from Nepal?</h3>
+          <div id="education" className="firstblog_heading_contains">
+            <h3>High-quality education</h3>
             <p>
-              The easy way to obtain a student visa for Russia from Nepal is to
-              source an Education consultation. There are many Education
-              consultations like Shreesha Education Consultation, which have
-              dedicated talks for Russia Study visas. However, before consulting
-              with Education, you must know the criteria to be fulfilled when
-              obtaining a student visa for Russia.
+            Russia has a long tradition of excellence in education, and its universities are known 
+            for producing well-trained and highly skilled graduates. Many Russian universities have
+             strong research programs and are highly ranked globally.
+
             </p>
-            <p>Required:</p>
-            <ul>
-              <li>You must have a Certificate of SLC/SEE, plus two.</li>
-              <li>The educational documents must be verifiable.</li>
-              <li>
-                A passport must be valid for one and a half years before travel.
-              </li>
-              <li>You must be healthy enough to travel to Russia.</li>
-              <li>
-                Before traveling to the country, you must perform a medical test
-                and provide relevant documentary proof.
-              </li>
-              <li>Photo as per the photo specifications.</li>
-            </ul>
+            
           </div>
-          <div id="virginpavific" className="firstblog_heading_contains">
-            <h3>What is not required for Visa for Russia?</h3>
-            <p>Like other Western countries, Russia doesn’t require</p>
+          <div id="diverse" className="firstblog_heading_contains">
+            <h3>A diverse range of programs</h3>
+            <p>Russian universities offer a wide variety of programs at the undergraduate, graduate, 
+              and postgraduate levels, including in fields such as engineering, natural sciences, 
+              humanities, and social sciences. There are also many programs taught in English, which
+               can be helpful for international students.
+</p>
 
-            <ul>
-              <li>IELTS/TOEFL</li>
-              <li>Bank Statements</li>
-              <li>Police Report</li>
-              <li>VDC Documents</li>
-              <li>Interviews</li>
-            </ul>
-            <p>
-              After submission with all the required documents, your sourced
-              consultation is forwarded to the Russian embassy for verification,
-              and within 45 days of the request, you get your visa. You can buy
-              a ticket and fly to Russia.
-              <br />
-              There will be changes in the validity of an education permit in
-              Russia depending on the type of course chosen by the applicant. It
-              could be about three months for short-term classes, and for
-              long-term studies, the validity can vary from 1 to 4 years.
-              <br />
-              When the documents have been submitted, there are a few things
-              that you need to note -
-              <br />
-              If any other requirements are to be fulfilled or any mistakes in
-              the application, the embassy or the agency must be informed.
-            </p>
-            <ul>
-              <li>
-                If any changes are related to the application, for instance, a
-                change in marital status or the birth of a child, you must
-                inform the consultancy.
-              </li>
-              <li>
-                You can even check the status of the application and the
-                processing in the meantime.{" "}
-              </li>
-              <li>
-                If there is a change of plans, you can withdraw the application.
-                The visa fee is non-refundable.
-              </li>
-              <li>
-                When the form is submitted along with the fees, the visa will be
-                mailed to you at your registered address or can be collected by
-                yourself from the consultancy office.
-              </li>
-              <li>
-                It is also essential to note that a visa does not guarantee
-                entry into the country. If the officials find an issue with your
-                permit or yourself, there are chances that you will be asked to
-                return to your native country.
-              </li>
-            </ul>
-            <p>
-              After you have received the visa, there are a few things that you
-              need to note. Some pointers are:
-            </p>
+            
           </div>
-          <div id="frinternational" className="firstblog_heading_contains">
-            <h3>Before travel</h3>
-
-            <ul>
-              <li>
-                Note the visa expiry date and the number of entries permitted.
-                You must stay in the country during this period.
-              </li>
-              <li>
-                You should travel to Russia within the validity of your visa.
-              </li>
-
-              <li>
-                Ensure you carry a copy of your passport and other travel
-                documents while in the country.
-              </li>
-              <li>
-                Issue health insurance and travel insurance from a certified
-                company.
-              </li>
-            </ul>
+          <div id="cultural" className="firstblog_heading_contains">
+            <h3>Cultural immersion</h3>
+            <p>Studying abroad in Russia allows students to fully immerse themselves in the country's 
+              diverse and dynamic culture, exploring its rich heritage and contemporary life.
+               This can be a rewarding and enriching experience that helps students learn more 
+               about the world and develop intercultural skills.</p>
+            
           </div>
-          <div id="kies" className="firstblog_heading_contains">
-            <h3>At the Border</h3>
-
-            <ul>
-              <li>Get your documents checked and your passport verified.</li>
-              <li>Obtain the entry stamp on your passport.</li>
-              <li>
-                Consult the airport authorities for any kind of assistance
-                required.
-              </li>
-              <li>
-                Check your visa copy for other guidelines and rules to be
-                followed.
-              </li>
-            </ul>
+          <div id="professional" className="firstblog_heading_contains">
+            <h3>Professional opportunities</h3>
+            <p>Completing a degree in Russia can open up career opportunities both in Russia and
+               internationally. Many Russian universities have strong connections with businesses 
+               and organizations, which can help students find internships and jobs after graduation.</p>
           </div>
-          <div id="genie" className="firstblog_heading_contains">
-            <h3>When you enter Russia</h3>
-
-            <ul>
-              <li>
-                Ensure to avoid getting involved in any activities permitted for
-                non-Russian residents. You may get into trouble otherwise.
-              </li>
-              <li>You can study, work, and tour the country on this visa.</li>
-              <li>The tourist-prohibited areas must be stayed out of.</li>
-              <li>Apply for an extension within the validity of the permit.</li>
-            </ul>
-          </div>
+          <p>In addition to its cultural and historical attractions, Russia is also a modern and 
+            innovative country, with a thriving economy and a strong focus on science and technology.
+             This makes it an exciting place to study and learn, with a wide range of academic and 
+             professional opportunities available to students. Don't miss out on the opportunity to 
+             study abroad in Russia - start exploring your options today!
+          </p>
         </div>
       </div>
       <hr></hr>
